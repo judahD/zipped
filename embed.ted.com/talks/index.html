@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<!--[if lt IE 8]> <html class="no-js loggedout oldie ie7" lang="en"> <![endif]-->
+<!--[if IE 8]> <html class="no-js loggedout oldie ie8" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--><html class='no-js loggedout' lang='en'><!--<![endif]-->
+<head>
+<script>
+  (function (H){
+  H.className=H.className.replace(/\bno-js\b/,'js');
+  if (('; '+document.cookie).match(/; _ted_user_id=/)) H.className=H.className.replace(/\bloggedout\b/,'loggedin');
+  })(document.documentElement)
+</script><meta charset='utf-8'>
+<title>TED Talks | TED.com</title>
+<meta content="TED Talks are influential videos from expert speakers on education, business, science, tech and creativity, with subtitles in 100+ languages. Ideas free to stream and download." name="description" />
+<meta content="TED, Talks, Themes, Speakers, Technology, Entertainment, Design" name="keywords" />
+<link href="https://pa.tedcdn.com/favicon.svg" mask="mask" rel="icon" sizes="any" />
+<meta content="#E62B1E" name="theme-color" />
+<link href="https://pa.tedcdn.com/favicon.ico" rel="shortcut icon" />
+<meta content="True" name="HandheldFriendly" />
+<meta content="320" name="MobileOptimized" />
+<meta content="width=device-width, initial-scale=1.0" name="viewport" />
+<meta content="TED.com" name="apple-mobile-web-app-title" />
+<meta content="yes" name="apple-mobile-web-app-capable" />
+<meta content="black" name="apple-mobile-web-app-status-bar-style" />
+<link href="https://pa.tedcdn.com/apple-touch-icon.png" rel="apple-touch-icon" />
+<link href="https://pa.tedcdn.com/apple-touch-icon-precomposed.png" rel="apple-touch-icon-precomposed" />
+<meta content="TED.com" name="application-name" />
+<meta content="/browserconfig.xml" name="msapplication-config" />
+<meta content="#000000" name="msapplication-TileColor" />
+<meta content="on" http-equiv="cleartype" />
+<meta content="TED Talks" name="title" /><!--[if lte IE 8]>
+<link rel="stylesheet" href="https://pa.tedcdn.com/stylesheets/global-ie.css?1477495858">
+<link rel="stylesheet" href="https://pa.tedcdn.com/stylesheets/talks-ie.css?1477495858">
+<![endif]-->
+<!--[if gt IE 8]><!-->
+<link rel="stylesheet" href="https://pa.tedcdn.com/stylesheets/global.css?1477495858">
+<link rel="stylesheet" href="https://pa.tedcdn.com/stylesheets/talks.css?1477495858">
+<!--<![endif]-->
+<!--[if lte IE 8]>
+<link rel="stylesheet" href="https://pa.tedcdn.com/stylesheets/shed-ie.css?1477495858">
+<link rel="stylesheet" href="https://pa.tedcdn.com/stylesheets/talks-ie.css?1477495858">
+<![endif]-->
+<!--[if gt IE 8]><!-->
+<link rel="stylesheet" href="https://pa.tedcdn.com/stylesheets/shed.css?1477495858">
+<link rel="stylesheet" href="https://pa.tedcdn.com/stylesheets/talks.css?1477495858">
+<!--<![endif]--><script>
+  if(top != self) top.location.replace(location);
+</script><script>
+  (function(i,r,l,d,o){
+    i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();
+    if(l && d!="yes" && d!="1") o.userId=l[1];
+    __ga('create',"UA-40781755-2",'ted.com',o);
+    __ga('set',"dimension3",'logged'+(l ? 'In' : 'Out'));
+  })(window,"__ga",('; '+document.cookie).match(/; _ted_user_id=(\d+);/),(window.navigator && window.navigator.doNotTrack),{});
+</script><script>
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+  
+  googletag.cmd.push(function() {
+    googletag.pubads().enableAsyncRendering();
+    googletag.enableServices();
+  });
+  
+  function gptProxy(data) {
+    g('ads.gptAd', data);
+  }
+</script><script>
+  _q=[];q=function(){_q.push(arguments)};
+  _g=[];g=function(){_g.push(arguments)};
+  
+  TED = {"assetBuster":1477495858,"playerPath":"//pb.tedcdn.com/assets/player/flash_hls/player_4_00_014.swf","playerPathRemote":"//pb.tedcdn.com/assets/player/flash_hls/player_4_00_014.swf","playerPathLocal":"/assets/player/flash_hls/player_4_00_014.swf","assetHost":"https://pa.tedcdn.com","authHost":"https://auth.ted.com","settingsUrl":"https://embed.ted.com/settings/account","signInUrl":"/session/new","signOutUrl":"https://auth.ted.com/session/logout","signInHelpUrl":"https://auth.ted.com/account/password/new","signUpUrl":"/users/new","csClientId":"7341760","gaDimensions":{"breakpoint":"dimension1","talkId":"dimension2","authState":"dimension3","playlistId":"dimension5","testId":"dimension7","embedZone":"dimension8","gaClientId":"dimension9","tedUserId":"dimension10","playContext":"dimension11","sourceContext":"dimension12","playbackRate":"dimension13","playerMode":"dimension14"}};
+  TED.signOutUrl += '?referer=' + location.protocol + '//' + location.host + '/session/logout';
+  
+  TED.startTime = new Date();
+  TED.isFirstVisit = !document.cookie.match(/; _ga=/);
+  
+  TED.abby = (function () {
+    var abs=(document.cookie.match(/_abby_(\w+)=(\w+)/g) || []), dms=[], ts={}, t;
+    for (var i=-1, l=abs.length; ++i < l;) {
+      t = abs[i].match(/_abby_(\w+)=(\w+)/);
+      ts[t[1]] = t[2];
+      tstr = t[1] + ':' + t[2];
+      if (dms.indexOf(tstr) < 0) dms.push(tstr);
+    }
+    if (dms.length) {
+      __ga('set', "dimension7", dms.join(','));
+    }
+    return {tests: ts}
+  }());
+  
+  require = {"baseUrl":"https://pa.tedcdn.com/javascripts","map":{"*":{"Handlebars":"hbs/handlebars","underscore":"lodash"}},"waitSeconds":0,"deps":["libs"],"paths":{"hlsjs":"hlsjs.js?978e4784bdb185c2e771a7407b5850e4","Backbone":"libs.js?20d4b250c391b47e594ae7d19dd75f61","embed":"embed.js?b3c51a9cde584d711d2d78c34b31f80d","speakingurl":"speakingurl.js?76b5e4e4b40b1c416697c6386b9e5a10","swatch":"swatch.js?ef6387e31db668836b5b21c5db1175d9","libs":"libs.js?20d4b250c391b47e594ae7d19dd75f61","touchPunch":"touchPunch.js?09f0267b1ecb9ecae2dcc9c959aebcf8","deferLink":"deferLink.js?660e8a0a1065819a6915d66ceb6b2e2f","swfobject":"libs.js?20d4b250c391b47e594ae7d19dd75f61","dq":"libs.js?20d4b250c391b47e594ae7d19dd75f61","surprise_me":"surprise_me.js?4c14fe51fc8f24797ea859ec22e8055f","jqueryujs":"libs.js?20d4b250c391b47e594ae7d19dd75f61","SwipeView":"SwipeView.js?cd503ab38937431f43dec5f016836328","es6":"es6.js?67d446f0796af20cd6c37dcfcce8c1b7","react-slick":"react-slick.js?73c32938c208abdeb096645a1b002b72","Swipe":"Swipe.js?15bf5d97c89fe4ab638e56a64a3c2be2","Mailcheck":"Mailcheck.js?b32eae17e7f8cf0e7da6448de1de2c79","depot":"depot.js?c7cd33e16bbca7cc5cc07860e98cd239","pages":"pages.js?6ac0c94f955d07fd3885cde306b37877","abby-tests/sponsorship-2/sponsorship":"abby-tests/sponsorship-2/sponsorship.js?1ecee5b8c292a760dcb9092ce6a364fc","abby-tests/talktube-2/talk-permalink":"abby-tests/talktube-2/talk-permalink.js?9c4f29173bf95c21acbab4c37bfddd56","abby-tests/talktube-2/talk-permalink-old":"abby-tests/talktube-2/talk-permalink-old.js?d896ee48c1caf6801a0814085ed4f8fe","abby-tests/talktalk/talk-permalink":"abby-tests/talktalk/talk-permalink.js?14d78da394bf0185c356c146bfd77268","abby-tests/talktalk/talk-permalink-old":"abby-tests/talktalk/talk-permalink-old.js?21e92132f4011f495dbae25e75b8e5ce","hbs":"hbs.js?43bff73c5d922c5ecbdff8188500b45c","talk":"talk.js?8f83512c1b8cd30640b533950faa4a9d","Cookies":"Cookies.js?3dd60a67a7315e345e3c63b9791e8488","spinjs":"spinjs.js?6ee78060107982392dc8076e165f24e5","jwplayer/jwplayer.html5":"jwplayer/jwplayer.html5.js?c0969ca5364f270ed8647d28c59dc9f9","jwplayer/jwplayer":"jwplayer/jwplayer.js?06735c0a9046236cc35a724dc09c5b0d","classnames":"classnames.js?32f2c58b6085bc2c65a80e2eb28b7955","tedx":"tedx.js?9b415eb7f813cf009b2cdd03dc6b54ef","autosize":"autosize.js?9fde45e4aa60d3d2c4a2d105df42ec6c","topics":"topics.js?1241770300b534ba3e192c194b2d39a2","dashboard_hotels":"dashboard_hotels.js?34520e39bf058c9a8577abc591b93346","crushinator":"crushinator.js?78fa02fc2be00f61a95c0f3a713e7066","home":"home.js?2f2e829eb217cf9d3763b9d1c166a984","settings":"settings.js?1450608ec88477bcfdb934ec8c7982a8","moment":"moment.js?ca364b2a5594ce7fe239e92050224cf7","profiles":"profiles.js?f60603406e312b06956ce6767be2af06","numeral":"numeral.js?160f24725a001040d67d48f5e5c3baf9","reac
