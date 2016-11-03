@@ -1119,7 +1119,7 @@ nav.navbar.bootsnav ul.nav li.dropdown ul.dropdown-menu > li > a:focus{
 #rev_slider_second p, .rev_slider p{
 	font-size:18px;
 	line-height:normal !important;
-	color:#0f0f0f;
+	color:#ffffff;
 }
 .rev_slider p.white_t {
   color: #fff;
@@ -2472,7 +2472,7 @@ ul.check li > i{
 
 
 /* ----------------- Footer ----------------- */
-.footer_top, .footer_small{ background:#F06D83;}
+.footer_top, .footer_small{ background:#7b1414;}
 .footer_panel .footer_logo{ display:inline-block; }
 .footer_top .footer_panel, .footer_panel ul.social_icon li a, .footer_small ul.social_icon li a{ color:#fff; }
 .footer_top .footer_panel .media-body span{
