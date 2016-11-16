@@ -138,7 +138,7 @@ p{
 	padding-bottom:80px;
 	padding-top:80px;
 }
-.padding-top{ padding-top:80px; }
+.padding-top{ padding-top:36px; }
 .padding-bottom{ padding-bottom:80px; }
 .padding-bottom-half{ padding-bottom:40px;}
 .padding-top-half{padding-top:40px;}
@@ -234,6 +234,7 @@ p{
 	position:relative;
 	width:100%;
 	display:block;
+
 }
 h1,h2,h3, h4, .btn-border, .btn-green, .btn-white, .btn-yellow, .btn-dark, .readmore, .btn-border-white,
  nav.navbar.bootsnav ul.nav > li > a, .attr-nav .getquote, .testinomial_pic span.name, .pushmenu  ul > li > a,
@@ -2370,9 +2371,9 @@ ul.check li > i{
 	background:url(../images/bg-contact.jpg) no-repeat;
 	background-position:center right;
 }
-.bg_contact.bg_two{
+/*.bg_contact.bg_two{
 	background:url(../images/bg-contact2.jpg) no-repeat;
-	background-position:center right;
+	background-position:center right;*/
 }
 .contact_inner{
 	margin:20px 0;
@@ -2472,7 +2473,7 @@ ul.check li > i{
 
 
 /* ----------------- Footer ----------------- */
-.footer_top, .footer_small{ background:#7b1414;}
+.footer_top, .footer_small{ background:#931d3e;}
 .footer_panel .footer_logo{ display:inline-block; }
 .footer_top .footer_panel, .footer_panel ul.social_icon li a, .footer_small ul.social_icon li a{ color:#fff; }
 .footer_top .footer_panel .media-body span{
@@ -2661,4 +2662,5 @@ nav.navbar.bootsnav ul.nav > li > a.border:before{
 		display:none;
   }
 }
+
 
